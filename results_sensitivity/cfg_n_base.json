@@ -1,0 +1,1 @@
+{"mode": "dev", "load": {"noise_scaled": true}, "seed0": 6000, "n": 20, "plan": [["none", ["reliab_adapt", "reliab"]], ["stuck_high", ["reliab_adapt"]], ["drift", ["reliab_adapt", "reliab"]], ["double_stuck_low", ["reliab_adapt"]]]}

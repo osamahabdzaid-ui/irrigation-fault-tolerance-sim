@@ -1,0 +1,31 @@
+0.008 none oracle_adapt water 137.8 drain>5 0.00
+0.008 none median_adapt water 136.8 drain>5 0.00
+0.008 none reliab_adapt water 137.2 drain>5 0.00
+0.008 none reliab10_adapt water 119.9 drain>5 0.00
+0.008 double_stuck_low oracle_adapt water 137.8 drain>5 0.00
+0.008 double_stuck_low median_adapt water 1440.0 drain>5 1.00
+0.008 double_stuck_low reliab_adapt water 148.7 drain>5 0.49
+0.008 double_stuck_low reliab10_adapt water 148.3 drain>5 0.40
+0.03 none oracle_adapt water 137.8 drain>5 0.00
+0.03 none median_adapt water 248.4 drain>5 0.23
+0.03 none reliab_adapt water 269.5 drain>5 0.20
+0.03 none reliab10_adapt water 120.0 drain>5 0.00
+0.03 double_stuck_low oracle_adapt water 137.8 drain>5 0.00
+0.03 double_stuck_low median_adapt water 1440.0 drain>5 1.00
+0.03 double_stuck_low reliab_adapt water 150.0 drain>5 0.52
+0.03 double_stuck_low reliab10_adapt water 149.2 drain>5 0.34
+0.05 none oracle_adapt water 137.8 drain>5 0.00
+0.05 none median_adapt water 425.5 drain>5 0.33
+0.05 none reliab_adapt water 409.8 drain>5 0.31
+0.05 none reliab10_adapt water 118.2 drain>5 0.00
+0.05 double_stuck_low oracle_adapt water 137.8 drain>5 0.00
+0.05 double_stuck_low median_adapt water 1440.0 drain>5 1.00
+0.05 double_stuck_low reliab_adapt water 151.3 drain>5 0.54
+0.05 double_stuck_low reliab10_adapt water 150.2 drain>5 0.36
+
+PRE-REGISTERED CRITERIA
+C1 FAIL | stalls=198, water diff CI [-20.06,-14.67]
+C2 PASS | drain>5mm 0% (v9 20%), water-oracle -17.8 mm
+C3 PASS | drain>5mm 0% (v9 31%)
+C4 PASS | v10 148.3 mm, v9 148.7 mm
+C5 FAIL | below-threshold hours v10-v9 on positive-offset runs: 136.3 h (n=110)

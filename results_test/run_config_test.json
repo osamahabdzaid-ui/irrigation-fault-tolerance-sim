@@ -1,0 +1,55 @@
+{
+  "run_mode": "test",
+  "years": [
+    2024,
+    2025
+  ],
+  "seeds": [
+    1000,
+    1099
+  ],
+  "days": 20,
+  "onset_step": 480,
+  "weather": "REAL (NASA POWER) weather_hillah.csv: 732 days, 2020-06-01 to 2025-09-30",
+  "weather_md5": "94cc58a0b5bd232e86ef0a2c3579fe5f",
+  "n_windows": 206,
+  "soil": {
+    "FC": 0.3,
+    "PWP": 0.15,
+    "ZR": 0.5
+  },
+  "crop": {
+    "p": 0.4,
+    "Kc": 1.15
+  },
+  "thresholds": {
+    "TL": 0.24,
+    "TH": 0.27999999999999997,
+    "dth": 0.04,
+    "fc_margin": 0.015
+  },
+  "et_err_sd": 0.1,
+  "s1_period_days": 3,
+  "self_calibration": {
+    "enabled": true,
+    "n0": 96
+  },
+  "reliability": {
+    "W": 8,
+    "lam": 0.9,
+    "gamma": 3.0,
+    "Rmin": 0.5,
+    "gate": 0.05
+  },
+  "drift": {
+    "alpha_f": 0.03125,
+    "alpha_s": 0.0005208333333333333,
+    "n0": 96,
+    "h": 0.006,
+    "ratio": 1.5,
+    "w4": 0.4
+  },
+  "probes": 3,
+  "rate_mm_h": 4.0,
+  "saved": "2026-11-17 20:26:24"
+}

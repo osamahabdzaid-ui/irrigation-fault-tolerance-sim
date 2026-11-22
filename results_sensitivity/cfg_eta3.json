@@ -1,0 +1,1 @@
+{"mode": "dev", "load": {"eta_feedback": true}, "seed0": 5000, "n": 40, "plan": [["drift", ["median", "median_adapt", "reliab", "reliab_adapt"]], ["double_stuck_low", ["median", "median_adapt", "reliab", "reliab_adapt"]]]}

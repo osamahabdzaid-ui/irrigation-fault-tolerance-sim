@@ -1,0 +1,1 @@
+{"mode": "dev", "load": {"soil": [0.36, 0.2, 0.5], "init_th": 0.34}, "seed0": 6000, "n": 20, "plan": [["none", ["oracle_adapt", "median_adapt", "reliab_adapt", "reliab"]], ["stuck_high", ["median_adapt", "reliab_adapt"]], ["drift", ["median_adapt", "reliab_adapt", "reliab"]], ["double_stuck_low", ["median_adapt", "reliab_adapt"]]]}

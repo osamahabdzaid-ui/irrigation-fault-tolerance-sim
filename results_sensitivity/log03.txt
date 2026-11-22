@@ -1,0 +1,13 @@
+s_bias03      none             oracle_adapt   water   137.7 drain   0.00 gt5 0.00 belowRAW    2.9 ETa/ETc 1.000 | 0s
+s_bias03      none             median_adapt   water   343.1 drain 205.06 gt5 0.30 belowRAW  112.1 ETa/ETc 1.000 | 1s
+s_bias03      none             reliab_adapt   water   341.7 drain 204.08 gt5 0.30 belowRAW   82.5 ETa/ETc 1.000 | 5s
+s_bias03      none             reliab         water   141.5 drain   5.91 gt5 0.25 belowRAW  176.1 ETa/ETc 1.000 | 10s
+s_bias03      stuck_low        median_adapt   water   729.5 drain 586.09 gt5 0.50 belowRAW   70.0 ETa/ETc 1.000 | 10s
+s_bias03      stuck_low        reliab_adapt   water   307.5 drain 169.76 gt5 0.30 belowRAW   75.7 ETa/ETc 1.000 | 13s
+s_bias03      stuck_high       median_adapt   water   128.7 drain   0.85 gt5 0.05 belowRAW  210.9 ETa/ETc 1.000 | 14s
+s_bias03      stuck_high       reliab_adapt   water   303.4 drain 165.72 gt5 0.30 belowRAW   78.7 ETa/ETc 1.000 | 17s
+s_bias03      drift            median_adapt   water   643.9 drain 500.44 gt5 0.50 belowRAW   75.8 ETa/ETc 1.000 | 17s
+s_bias03      drift            reliab_adapt   water   316.6 drain 178.91 gt5 0.30 belowRAW   76.0 ETa/ETc 1.000 | 21s
+s_bias03      drift            reliab         water   143.1 drain   5.78 gt5 0.20 belowRAW  172.4 ETa/ETc 1.000 | 24s
+s_bias03      double_stuck_low median_adapt   water  1440.0 drain 1290.47 gt5 1.00 belowRAW    0.4 ETa/ETc 1.000 | 25s
+s_bias03      double_stuck_low reliab_adapt   water   151.4 drain  10.75 gt5 0.50 belowRAW   75.7 ETa/ETc 1.000 | 28s

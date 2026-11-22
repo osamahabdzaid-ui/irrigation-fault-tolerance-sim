@@ -1,0 +1,1 @@
+{"mode": "dev", "load": {"et_err_sd": 0.0}, "seed0": 6000, "n": 20, "plan": [["none", ["oracle_adapt", "median_adapt", "reliab_adapt", "reliab"]], ["stuck_high", ["median_adapt", "reliab_adapt"]], ["drift", ["median_adapt", "reliab_adapt", "reliab"]], ["double_stuck_low", ["median_adapt", "reliab_adapt"]]]}
